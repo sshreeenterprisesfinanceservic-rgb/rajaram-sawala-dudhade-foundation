@@ -18,14 +18,12 @@ const content = {
     statServices: "Defined service areas",
     statLanguages: "Website languages",
     statMission: "Shared service mission",
-    floatingTrust: "Trusted member records",
-    floatingService: "Service request support",
     aboutKicker: "About the foundation",
     aboutTitle: "A structured public-service platform rooted in local trust.",
     aboutBody1:
       "The foundation works from Dudhdewadi, Taluka Karad, District Satara, Maharashtra. Its purpose is to keep social help organized, traceable, and respectful for people who need timely support.",
     aboutBody2:
-      "The website and mobile app are being aligned as one public system for membership, service requests, activity communication, volunteer participation, and payment readiness.",
+      "The website and mobile app work together as one public channel for membership, service requests, activity communication, volunteer participation, and payment updates.",
     identityTitle: "Official identity",
     identityNameLabel: "Name",
     identityName: "Kai. Rajaram Sawala Dudhade Foundation",
@@ -38,9 +36,9 @@ const content = {
     servicesKicker: "Foundation services",
     servicesTitle: "Clear service categories for real community support.",
     servicesIntro:
-      "Each service category is intended to be handled through a documented member request, foundation review, operator assignment, and final status update.",
+      "Every service category is presented with a clear purpose so members can understand what support can be requested through the foundation app.",
     membershipKicker: "Membership",
-    membershipTitle: "Membership shall create a verified relationship with the foundation.",
+    membershipTitle: "Membership creates a verified relationship with the foundation.",
     membershipText:
       "The membership journey is planned for structured registration, policy acceptance, payment confirmation, member number, certificate, receipt, and dashboard access.",
     memberPoint1: "Approved member record with date and member number",
@@ -50,13 +48,13 @@ const content = {
     appKicker: "Mobile app access",
     appTitle: "A dedicated routing area for member app access.",
     appText:
-      "This website keeps a dedicated place for the foundation mobile app route. Once the Android release link is approved, this section can route members directly to install or open the app.",
+      "This website includes a dedicated place for the foundation mobile app. Once the Android release link is approved, members can come here to install or open the app.",
     appCardTitle: "Foundation Member App",
-    appCardStatus: "Android release route reserved",
+    appCardStatus: "Android app link coming after approval",
     socialKicker: "Official social channels",
     socialTitle: "Follow foundation updates from verified public channels.",
     socialText:
-      "These links help members, donors, volunteers, and reviewers verify the foundation’s public communication presence.",
+      "These links help members, donors, volunteers, and visitors verify the foundation’s public communication presence.",
     youtubeText: "Foundation videos and public activity updates",
     facebookText: "Community posts, announcements, and service updates",
     instagramText: "Photos, moments, and activity highlights",
@@ -64,27 +62,27 @@ const content = {
     donationTitle: "Required disclosures for transparent membership and donation handling.",
     policyUseTitle: "Use of funds",
     policyUseText:
-      "Funds are intended for medical support, education help, welfare drives, community activities, and operational needs directly connected with foundation work.",
+      "Funds are used for medical support, education help, welfare drives, community activities, and operational needs directly connected with foundation work.",
     policyRefundTitle: "Refund and correction policy",
     policyRefundText:
-      "If a payment is made by mistake, the payer shall contact the foundation with transaction details. Refund or correction eligibility will be reviewed according to the payment purpose and payment gateway rules.",
+      "If a payment is made by mistake, the payer can contact the foundation with transaction details. Refund or correction eligibility is reviewed according to the payment purpose and payment gateway rules.",
     policyPrivacyTitle: "Privacy commitment",
     policyPrivacyText:
-      "Personal details shared for membership, donation, or service requests shall be used only for foundation communication, records, compliance, and service coordination.",
+      "Personal details shared for membership, donation, or service requests are used only for foundation communication, records, compliance, and service coordination.",
     policyTermsTitle: "User responsibility",
     policyTermsText:
-      "Members and supporters shall provide accurate details, use the service request facility responsibly, and follow foundation verification requirements.",
+      "Members and supporters should provide accurate details, use the service request facility responsibly, and follow foundation verification requirements.",
     reviewKicker: "Operational process",
     reviewTitle: "How requests should move through the foundation workflow.",
     contactKicker: "Contact and verification",
-    contactTitle: "Official contact routes for members and reviewers.",
+    contactTitle: "Official contact channels for members and visitors.",
     contactText:
-      "Until the domain email is activated, the foundation’s public social channels shall be used for communication visibility. The official domain email and phone number can be added here after client confirmation.",
+      "Until the domain email is activated, the foundation’s public social channels are visible here for updates. The official domain email and phone number can be added after final confirmation.",
     contactCardTitle: "Website readiness note",
     contactCardText:
-      "Domain email, official phone number, and custom domain connection are the remaining client-side items before final Razorpay documentation.",
+      "Domain email, official phone number, and custom domain connection are the remaining items before final payment gateway activation.",
     contactSocial: "Open official social links",
-    contactApp: "View app route",
+    contactApp: "View app section",
     footerName: "Kai. Rajaram Sawala Dudhade Foundation",
     footerLine: "Service, trust, and social welfare from Dudhdewadi, Karad, Satara.",
     services: [
@@ -94,20 +92,20 @@ const content = {
       ["Financial assistance", "Need-based help for genuine hardship cases, reviewed responsibly through foundation representatives."],
       ["Donation programs", "Structured social-giving initiatives for medicines, education, food, essentials, and welfare drives."],
       ["Community welfare", "Health, public awareness, social care, and support initiatives for vulnerable families."],
-      ["Volunteer registration", "A simple route for citizens to join drives, assist local work, and serve the community."],
+      ["Volunteer registration", "A simple way for citizens to join drives, assist local work, and serve the community."],
       ["Public awareness", "Local outreach for health, education, social responsibility, and timely assistance information."]
     ],
     appSteps: [
-      ["App route", "This website section is reserved for the approved Android app link."],
-      ["Member access", "Members shall use the app for registration, documents, dashboard, and service requests."],
-      ["Release control", "The final app link shall be added only after client approval and release verification."]
+      ["App access", "This website section will show the approved Android app link."],
+      ["Member access", "Members can use the app for registration, documents, dashboard, and service requests."],
+      ["Release control", "The final app link will be added after approval and release verification."]
     ],
     review: [
       ["Member request", "A member submits a service request through the app with category, priority, and notes."],
       ["Admin review", "Foundation admin reviews the request and confirms whether it should move ahead."],
       ["Operator intimation", "The assigned operator receives the request and acknowledges responsibility."],
       ["Progress tracking", "Status, remarks, follow-up, escalation, and closure are recorded for accountability."],
-      ["Management view", "Reports shall show pending, resolved, delayed, and escalated service requests."]
+      ["Management view", "Reports can show pending, resolved, delayed, and escalated service requests."]
     ]
   },
   mr: {
@@ -129,14 +127,12 @@ const content = {
     statServices: "निश्चित सेवा क्षेत्र",
     statLanguages: "वेबसाइट भाषा",
     statMission: "एकच सेवाभाव ध्येय",
-    floatingTrust: "विश्वासार्ह सभासद नोंदी",
-    floatingService: "सेवा विनंती सहाय्य",
     aboutKicker: "फाउंडेशन विषयी",
     aboutTitle: "स्थानिक विश्वासावर आधारित शिस्तबद्ध लोकसेवा व्यासपीठ.",
     aboutBody1:
       "फाउंडेशन महाराष्ट्र राज्यातील दुधडेवाडी, ता. कराड, जि. सातारा येथून कार्य करते. गरजू लोकांना वेळेवर, सन्मानपूर्वक आणि नोंदीसह मदत मिळावी हा उद्देश आहे.",
     aboutBody2:
-      "वेबसाइट आणि मोबाईल ॲप सभासदत्व, सेवा विनंती, उपक्रम माहिती, स्वयंसेवक सहभाग आणि पेमेंट तयारी यासाठी एकत्रित सार्वजनिक प्रणाली म्हणून तयार केली जात आहे.",
+      "वेबसाइट आणि मोबाईल ॲप सभासदत्व, सेवा विनंती, उपक्रम माहिती, स्वयंसेवक सहभाग आणि पेमेंट अपडेटसाठी एकत्र काम करतात.",
     identityTitle: "अधिकृत ओळख",
     identityNameLabel: "नाव",
     identityName: "कै. राजाराम सावळा दुधडे फाउंडेशन",
@@ -149,25 +145,25 @@ const content = {
     servicesKicker: "फाउंडेशन सेवा",
     servicesTitle: "समाजाच्या खऱ्या गरजांसाठी स्पष्ट सेवा विभाग.",
     servicesIntro:
-      "प्रत्येक सेवा विभाग सभासद विनंती, फाउंडेशन पुनरावलोकन, ऑपरेटर नेमणूक आणि अंतिम स्थिती नोंदीद्वारे हाताळणे अपेक्षित आहे.",
+      "प्रत्येक सेवा विभाग स्पष्ट उद्देशासह मांडला आहे, ज्यामुळे सभासदांना फाउंडेशन ॲपमधून कोणती मदत मागता येईल हे समजते.",
     membershipKicker: "सभासदत्व",
-    membershipTitle: "सभासदत्वामुळे फाउंडेशनसोबत पडताळलेले नाते तयार होईल.",
+    membershipTitle: "सभासदत्वामुळे फाउंडेशनसोबत पडताळलेले नाते तयार होते.",
     membershipText:
-      "सभासद प्रवासात नोंदणी, धोरण संमती, पेमेंट पुष्टी, सभासद क्रमांक, प्रमाणपत्र, पावती आणि डॅशबोर्ड प्रवेश यांचा समावेश अपेक्षित आहे.",
+      "सभासद प्रक्रियेत नोंदणी, धोरण संमती, पेमेंट पुष्टी, सभासद क्रमांक, प्रमाणपत्र, पावती आणि डॅशबोर्ड प्रवेश यांचा समावेश आहे.",
     memberPoint1: "दिनांक आणि सभासद क्रमांकासह मंजूर नोंद",
     memberPoint2: "फाउंडेशन ओळखीशी जुळणारे प्रमाणपत्र आणि पावती स्वरूप",
     memberPoint3: "मोबाईल ॲपमधून सभासदांसाठी सेवा विनंती प्रवेश",
     viewCertificate: "प्रमाणपत्र रचना पहा",
     appKicker: "मोबाईल ॲप प्रवेश",
-    appTitle: "सभासद ॲप प्रवेशासाठी स्वतंत्र रूटिंग विभाग.",
+    appTitle: "सभासद ॲप प्रवेशासाठी स्वतंत्र विभाग.",
     appText:
-      "या वेबसाइटमध्ये फाउंडेशन मोबाईल ॲपसाठी स्वतंत्र जागा ठेवली आहे. Android रिलीज दुवा मान्य झाल्यावर याच विभागातून सभासदांना ॲप स्थापित किंवा उघडता येईल.",
+      "या वेबसाइटमध्ये फाउंडेशन मोबाईल ॲपसाठी स्वतंत्र जागा ठेवली आहे. Android ॲपचा दुवा मंजूर झाल्यावर सभासद याच विभागातून ॲप स्थापित किंवा उघडू शकतील.",
     appCardTitle: "फाउंडेशन सभासद ॲप",
-    appCardStatus: "Android रिलीज दुवा राखीव",
+    appCardStatus: "Android ॲप दुवा मंजुरीनंतर जोडला जाईल",
     socialKicker: "अधिकृत सोशल चॅनेल",
     socialTitle: "फाउंडेशनचे अपडेट अधिकृत सार्वजनिक चॅनेलवर पहा.",
     socialText:
-      "हे दुवे सभासद, देणगीदार, स्वयंसेवक आणि पुनरावलोकन करणाऱ्यांना फाउंडेशनची सार्वजनिक उपस्थिती तपासण्यास मदत करतात.",
+      "हे दुवे सभासद, देणगीदार, स्वयंसेवक आणि आगंतुकांना फाउंडेशनची सार्वजनिक उपस्थिती तपासण्यास मदत करतात.",
     youtubeText: "फाउंडेशन व्हिडिओ आणि सार्वजनिक उपक्रम अपडेट",
     facebookText: "समुदाय पोस्ट, घोषणा आणि सेवा अपडेट",
     instagramText: "फोटो, क्षण आणि उपक्रम झलक",
@@ -188,14 +184,14 @@ const content = {
     reviewKicker: "कार्यप्रवाह प्रक्रिया",
     reviewTitle: "विनंत्या फाउंडेशन कार्यप्रवाहातून कशा पुढे जाव्यात.",
     contactKicker: "संपर्क आणि पडताळणी",
-    contactTitle: "सभासद आणि पुनरावलोकनासाठी अधिकृत संपर्क मार्ग.",
+    contactTitle: "सभासद आणि आगंतुकांसाठी अधिकृत संपर्क मार्ग.",
     contactText:
-      "डोमेन ईमेल सक्रिय होईपर्यंत सार्वजनिक सोशल चॅनेलद्वारे फाउंडेशनची संपर्क दृश्यमानता ठेवली जाईल. क्लायंट पुष्टीनंतर अधिकृत डोमेन ईमेल आणि फोन नंबर येथे जोडता येईल.",
+      "डोमेन ईमेल सक्रिय होईपर्यंत फाउंडेशनचे सार्वजनिक सोशल चॅनेल अपडेटसाठी येथे उपलब्ध आहेत. अंतिम पुष्टीनंतर अधिकृत डोमेन ईमेल आणि फोन नंबर येथे जोडता येईल.",
     contactCardTitle: "वेबसाइट तयारी नोंद",
     contactCardText:
-      "डोमेन ईमेल, अधिकृत फोन नंबर आणि कस्टम डोमेन जोडणी ही अंतिम Razorpay दस्तऐवजीकरणापूर्वीची उर्वरित क्लायंटकडील कामे आहेत.",
+      "डोमेन ईमेल, अधिकृत फोन नंबर आणि कस्टम डोमेन जोडणी ही अंतिम पेमेंट गेटवे दस्तऐवजीकरणापूर्वीची उर्वरित कामे आहेत.",
     contactSocial: "अधिकृत सोशल दुवे उघडा",
-    contactApp: "ॲप रूट पहा",
+    contactApp: "ॲप विभाग पहा",
     footerName: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     footerLine: "दुधडेवाडी, कराड, सातारा येथून सेवाभाव, विश्वास आणि समाजहित.",
     services: [
@@ -205,13 +201,13 @@ const content = {
       ["आर्थिक मदत", "खऱ्या अडचणीतील प्रकरणांसाठी फाउंडेशन प्रतिनिधीद्वारे जबाबदारीने तपासलेली मदत."],
       ["दान उपक्रम", "औषधे, शिक्षण, अन्न, आवश्यक वस्तू आणि समाजकल्याणासाठी नियोजित दान उपक्रम."],
       ["समुदाय कल्याण", "आरोग्य, जनजागृती, सामाजिक काळजी आणि दुर्बल कुटुंबांसाठी सहाय्य उपक्रम."],
-      ["स्वयंसेवक नोंदणी", "नागरिकांना अभियानात सहभागी होण्यासाठी, स्थानिक कामात मदत करण्यासाठी आणि समाजसेवा करण्यासाठी मार्ग."],
+      ["स्वयंसेवक नोंदणी", "नागरिकांना अभियानात सहभागी होण्यासाठी, स्थानिक कामात मदत करण्यासाठी आणि समाजसेवा करण्यासाठी सोपा मार्ग."],
       ["जनजागृती", "आरोग्य, शिक्षण, सामाजिक जबाबदारी आणि वेळेवर मदत यासाठी स्थानिक संपर्क."]
     ],
     appSteps: [
-      ["ॲप रूट", "मान्य Android ॲप दुव्यासाठी हा वेबसाइट विभाग राखीव आहे."],
-      ["सभासद प्रवेश", "नोंदणी, दस्तऐवज, डॅशबोर्ड आणि सेवा विनंतीसाठी सभासद ॲप वापरतील."],
-      ["रिलीज नियंत्रण", "अंतिम ॲप दुवा क्लायंट मान्यता आणि रिलीज पडताळणीनंतरच जोडला जाईल."]
+      ["ॲप प्रवेश", "मंजूर Android ॲप दुवा या वेबसाइट विभागात दिसेल."],
+      ["सभासद प्रवेश", "नोंदणी, दस्तऐवज, डॅशबोर्ड आणि सेवा विनंतीसाठी सभासद ॲप वापरू शकतील."],
+      ["रिलीज नियंत्रण", "अंतिम ॲप दुवा मंजुरी आणि रिलीज पडताळणीनंतर जोडला जाईल."]
     ],
     review: [
       ["सभासद विनंती", "सभासद ॲपमधून सेवा प्रकार, प्राधान्य आणि नोंदीसह विनंती पाठवतो."],
@@ -240,8 +236,6 @@ const content = {
     statServices: "निर्धारित सेवा क्षेत्र",
     statLanguages: "वेबसाइट भाषाएं",
     statMission: "एक सेवा उद्देश्य",
-    floatingTrust: "विश्वसनीय सदस्य रिकॉर्ड",
-    floatingService: "सेवा अनुरोध सहायता",
     aboutKicker: "फाउंडेशन के बारे में",
     aboutTitle: "स्थानीय भरोसे पर आधारित व्यवस्थित जनसेवा प्लेटफॉर्म.",
     aboutBody1:
@@ -270,15 +264,15 @@ const content = {
     memberPoint3: "मोबाइल ऐप से सदस्यों के लिए सेवा अनुरोध सुविधा",
     viewCertificate: "प्रमाणपत्र डिजाइन देखें",
     appKicker: "मोबाइल ऐप पहुंच",
-    appTitle: "सदस्य ऐप पहुंच के लिए अलग रूटिंग विभाग.",
+    appTitle: "सदस्य ऐप पहुंच के लिए अलग विभाग.",
     appText:
-      "इस वेबसाइट में फाउंडेशन मोबाइल ऐप के लिए अलग स्थान रखा गया है. Android release link स्वीकृत होने के बाद सदस्य इसी विभाग से ऐप install या open कर सकेंगे.",
+      "इस वेबसाइट में फाउंडेशन मोबाइल ऐप के लिए अलग स्थान रखा गया है. Android ऐप लिंक स्वीकृत होने के बाद सदस्य इसी विभाग से ऐप इंस्टॉल या खोल सकेंगे.",
     appCardTitle: "फाउंडेशन सदस्य ऐप",
-    appCardStatus: "Android release link reserved",
+    appCardStatus: "Android ऐप लिंक स्वीकृति के बाद जोड़ा जाएगा",
     socialKicker: "आधिकारिक सोशल चैनल",
     socialTitle: "फाउंडेशन अपडेट आधिकारिक सार्वजनिक चैनलों पर देखें.",
     socialText:
-      "ये लिंक सदस्यों, दाताओं, स्वयंसेवकों और reviewers को फाउंडेशन की सार्वजनिक उपस्थिति सत्यापित करने में मदद करते हैं.",
+      "ये लिंक सदस्यों, दाताओं, स्वयंसेवकों और आगंतुकों को फाउंडेशन की सार्वजनिक उपस्थिति सत्यापित करने में मदद करते हैं.",
     youtubeText: "फाउंडेशन वीडियो और सार्वजनिक गतिविधि अपडेट",
     facebookText: "समुदाय पोस्ट, घोषणाएं और सेवा अपडेट",
     instagramText: "फोटो, क्षण और गतिविधि highlights",
@@ -299,14 +293,14 @@ const content = {
     reviewKicker: "कार्यप्रवाह प्रक्रिया",
     reviewTitle: "अनुरोध फाउंडेशन workflow से कैसे आगे बढ़ेंगे.",
     contactKicker: "संपर्क और सत्यापन",
-    contactTitle: "सदस्यों और reviewers के लिए आधिकारिक संपर्क मार्ग.",
+    contactTitle: "सदस्यों और आगंतुकों के लिए आधिकारिक संपर्क मार्ग.",
     contactText:
-      "Domain email सक्रिय होने तक फाउंडेशन के सार्वजनिक social channels communication visibility के लिए उपयोग होंगे. Client confirmation के बाद official domain email और phone number यहां जोड़े जा सकते हैं.",
+      "डोमेन ईमेल सक्रिय होने तक फाउंडेशन के सार्वजनिक सोशल चॅनेल अपडेट के लिए यहां उपलब्ध हैं. अंतिम पुष्टि के बाद आधिकारिक डोमेन ईमेल और फोन नंबर यहां जोड़े जा सकते हैं.",
     contactCardTitle: "वेबसाइट तैयारी नोट",
     contactCardText:
-      "Domain email, official phone number और custom domain connection अंतिम Razorpay documentation से पहले बाकी client-side items हैं.",
+      "डोमेन ईमेल, आधिकारिक फोन नंबर और कस्टम डोमेन जोड़ना अंतिम पेमेंट गेटवे दस्तावेजीकरण से पहले बाकी काम हैं.",
     contactSocial: "आधिकारिक सोशल लिंक खोलें",
-    contactApp: "ऐप रूट देखें",
+    contactApp: "ऐप विभाग देखें",
     footerName: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     footerLine: "दुधडेवाडी, कराड, सातारा से सेवा, विश्वास और समाजहित.",
     services: [
@@ -320,9 +314,9 @@ const content = {
       ["जनजागृति", "स्वास्थ्य, शिक्षा, सामाजिक जिम्मेदारी और समय पर सहायता के लिए स्थानीय संपर्क."]
     ],
     appSteps: [
-      ["ऐप रूट", "स्वीकृत Android ऐप लिंक के लिए यह वेबसाइट विभाग reserved है."],
+      ["ऐप पहुंच", "स्वीकृत Android ऐप लिंक इस वेबसाइट विभाग में दिखाई देगा."],
       ["सदस्य पहुंच", "पंजीकरण, दस्तावेज, डैशबोर्ड और सेवा अनुरोध के लिए सदस्य ऐप उपयोग करेंगे."],
-      ["रिलीज नियंत्रण", "अंतिम ऐप लिंक client approval और release verification के बाद ही जोड़ा जाएगा."]
+      ["रिलीज नियंत्रण", "अंतिम ऐप लिंक स्वीकृति और रिलीज सत्यापन के बाद जोड़ा जाएगा."]
     ],
     review: [
       ["सदस्य अनुरोध", "सदस्य ऐप से सेवा प्रकार, प्राथमिकता और नोट्स के साथ अनुरोध भेजता है."],

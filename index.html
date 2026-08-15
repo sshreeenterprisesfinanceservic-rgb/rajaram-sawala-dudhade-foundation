@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=6" />
   </head>
   <body>
     <header class="site-header">
@@ -69,8 +69,11 @@
           <div class="hero-visual">
             <img src="assets/foundation-logo.jpeg" alt="Foundation emblem with founder portrait" />
           </div>
-          <div class="floating-note note-top" data-i18n="floatingTrust">Trusted member records</div>
-          <div class="floating-note note-bottom" data-i18n="floatingService">Service request support</div>
+          <div class="hero-image-strip" aria-label="Foundation service visuals">
+            <img src="assets/service-medical.jpg" alt="Medical help support" />
+            <img src="assets/service-education.jpg" alt="Education assistance" />
+            <img src="assets/service-donation.jpg" alt="Donation program support" />
+          </div>
         </div>
       </section>
 
@@ -84,8 +87,8 @@
             timely support.
           </p>
           <p data-i18n="aboutBody2">
-            The website and mobile app are being aligned as one public system for membership,
-            service requests, activity communication, volunteer participation, and payment readiness.
+            The website and mobile app work together as one public channel for membership,
+            service requests, activity communication, volunteer participation, and payment updates.
           </p>
         </div>
         <div class="identity-panel glass-card">
@@ -104,8 +107,8 @@
           <p class="section-kicker" data-i18n="servicesKicker">Foundation services</p>
           <h2 data-i18n="servicesTitle">Clear service categories for real community support.</h2>
           <p data-i18n="servicesIntro">
-            Each service category is intended to be handled through a documented member request,
-            foundation review, operator assignment, and final status update.
+            Every service category is presented with a clear purpose so members can understand
+            what support can be requested through the foundation app.
           </p>
         </div>
         <div class="service-grid" id="serviceGrid"></div>
@@ -114,7 +117,7 @@
       <section id="membership" class="section certificate-section reveal">
         <div class="certificate-copy">
           <p class="section-kicker" data-i18n="membershipKicker">Membership</p>
-          <h2 data-i18n="membershipTitle">Membership shall create a verified relationship with the foundation.</h2>
+          <h2 data-i18n="membershipTitle">Membership creates a verified relationship with the foundation.</h2>
           <p data-i18n="membershipText">
             The membership journey is planned for structured registration, policy acceptance, payment
             confirmation, member number, certificate, receipt, and dashboard access.
@@ -136,9 +139,8 @@
           <p class="section-kicker" data-i18n="appKicker">Mobile app access</p>
           <h2 data-i18n="appTitle">A dedicated routing area for member app access.</h2>
           <p data-i18n="appText">
-            This website keeps a dedicated place for the foundation mobile app route. Once the
-            Android release link is approved, this section can route members directly to install or
-            open the app.
+            This website includes a dedicated place for the foundation mobile app. Once the Android
+            release link is approved, members can come here to install or open the app.
           </p>
         </div>
         <div class="app-grid">
@@ -146,7 +148,7 @@
             <div class="phone-top"></div>
             <img src="assets/foundation-logo.jpeg" alt="Foundation app logo preview" />
             <strong data-i18n="appCardTitle">Foundation Member App</strong>
-            <span data-i18n="appCardStatus">Android release route reserved</span>
+            <span data-i18n="appCardStatus">Android app link coming after approval</span>
           </article>
           <div class="app-steps" id="appSteps"></div>
         </div>
@@ -157,7 +159,7 @@
           <p class="section-kicker" data-i18n="socialKicker">Official social channels</p>
           <h2 data-i18n="socialTitle">Follow foundation updates from verified public channels.</h2>
           <p data-i18n="socialText">
-            These links help members, donors, volunteers, and reviewers verify the foundation’s
+            These links help members, donors, volunteers, and visitors verify the foundation’s
             public communication presence.
           </p>
         </div>
@@ -186,10 +188,10 @@
           <h2 data-i18n="donationTitle">Required disclosures for transparent membership and donation handling.</h2>
         </div>
         <div class="policy-grid">
-          <article><h3 data-i18n="policyUseTitle">Use of funds</h3><p data-i18n="policyUseText">Funds are intended for medical support, education help, welfare drives, community activities, and operational needs directly connected with foundation work.</p></article>
-          <article><h3 data-i18n="policyRefundTitle">Refund and correction policy</h3><p data-i18n="policyRefundText">If a payment is made by mistake, the payer shall contact the foundation with transaction details. Refund or correction eligibility will be reviewed according to the payment purpose and payment gateway rules.</p></article>
-          <article><h3 data-i18n="policyPrivacyTitle">Privacy commitment</h3><p data-i18n="policyPrivacyText">Personal details shared for membership, donation, or service requests shall be used only for foundation communication, records, compliance, and service coordination.</p></article>
-          <article><h3 data-i18n="policyTermsTitle">User responsibility</h3><p data-i18n="policyTermsText">Members and supporters shall provide accurate details, use the service request facility responsibly, and follow foundation verification requirements.</p></article>
+          <article><h3 data-i18n="policyUseTitle">Use of funds</h3><p data-i18n="policyUseText">Funds are used for medical support, education help, welfare drives, community activities, and operational needs directly connected with foundation work.</p></article>
+          <article><h3 data-i18n="policyRefundTitle">Refund and correction policy</h3><p data-i18n="policyRefundText">If a payment is made by mistake, the payer can contact the foundation with transaction details. Refund or correction eligibility is reviewed according to the payment purpose and payment gateway rules.</p></article>
+          <article><h3 data-i18n="policyPrivacyTitle">Privacy commitment</h3><p data-i18n="policyPrivacyText">Personal details shared for membership, donation, or service requests are used only for foundation communication, records, compliance, and service coordination.</p></article>
+          <article><h3 data-i18n="policyTermsTitle">User responsibility</h3><p data-i18n="policyTermsText">Members and supporters should provide accurate details, use the service request facility responsibly, and follow foundation verification requirements.</p></article>
         </div>
       </section>
 
@@ -204,22 +206,22 @@
       <section id="contact" class="section contact-section reveal">
         <div>
           <p class="section-kicker" data-i18n="contactKicker">Contact and verification</p>
-          <h2 data-i18n="contactTitle">Official contact routes for members and reviewers.</h2>
+          <h2 data-i18n="contactTitle">Official contact channels for members and visitors.</h2>
           <p data-i18n="contactText">
-            Until the domain email is activated, the foundation’s public social channels shall be
-            used for communication visibility. The official domain email and phone number can be
-            added here after client confirmation.
+            Until the domain email is activated, the foundation’s public social channels are visible
+            here for updates. The official domain email and phone number can be added after final
+            confirmation.
           </p>
         </div>
         <div class="contact-card glass-card">
           <h3 data-i18n="contactCardTitle">Website readiness note</h3>
           <p data-i18n="contactCardText">
             Domain email, official phone number, and custom domain connection are the remaining
-            client-side items before final Razorpay documentation.
+            items before final payment gateway activation.
           </p>
           <div class="contact-actions">
             <a class="button primary" href="#social" data-i18n="contactSocial">Open official social links</a>
-            <a class="button secondary" href="#app" data-i18n="contactApp">View app route</a>
+            <a class="button secondary" href="#app" data-i18n="contactApp">View app section</a>
           </div>
         </div>
       </section>
@@ -242,6 +244,6 @@
       <img src="assets/membership-certificate.png" alt="Large membership certificate preview" />
     </dialog>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=6"></script>
   </body>
 </html>
