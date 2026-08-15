@@ -335,6 +335,16 @@ const content = {
 };
 
 const icons = ["✚", "रक्त", "▣", "₹", "🎁", "●", "✋", "↗"];
+const serviceImages = [
+  "assets/service-medical.jpg",
+  "assets/service-blood.jpg",
+  "assets/service-education.jpg",
+  "assets/service-financial.jpg",
+  "assets/service-donation.jpg",
+  "assets/service-welfare.jpg",
+  "assets/service-volunteer.jpg",
+  "assets/service-awareness.jpg"
+];
 
 const languageSelect = document.querySelector("#language");
 const serviceGrid = document.querySelector("#serviceGrid");
@@ -356,9 +366,14 @@ function setLanguage(lang) {
     .map(
       ([title, text], index) => `
         <article class="service-card tilt-card">
-          <div class="service-icon" aria-hidden="true">${icons[index]}</div>
-          <h3>${title}</h3>
-          <p>${text}</p>
+          <div class="service-image-wrap">
+            <img src="${serviceImages[index]}" alt="${title}" loading="lazy" />
+            <div class="service-icon" aria-hidden="true">${icons[index]}</div>
+          </div>
+          <div class="service-content">
+            <h3>${title}</h3>
+            <p>${text}</p>
+          </div>
         </article>
       `
     )

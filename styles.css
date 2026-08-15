@@ -362,21 +362,50 @@ dd { margin: 4px 0 18px; color: var(--ink); font-weight: 800; line-height: 1.45;
 }
 
 .service-card {
-  min-height: 255px;
-  padding: 24px;
+  min-height: 395px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.service-image-wrap {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--gold-soft);
+}
+
+.service-image-wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 450ms ease, filter 450ms ease;
+}
+
+.service-card:hover .service-image-wrap img {
+  transform: scale(1.055);
+  filter: saturate(1.06) contrast(1.04);
 }
 
 .service-icon {
+  position: absolute;
+  left: 18px;
+  bottom: -22px;
   display: grid;
   place-items: center;
   width: 48px;
   height: 48px;
-  margin-bottom: 16px;
   border-radius: 50%;
   color: var(--maroon);
   background: radial-gradient(circle at 30% 30%, #fff3c7, var(--gold-soft));
+  border: 2px solid white;
+  box-shadow: 0 12px 28px rgba(54, 24, 12, 0.18);
   font-size: 22px;
   font-weight: 900;
+}
+
+.service-content {
+  padding: 34px 24px 24px;
 }
 
 .certificate-section {
