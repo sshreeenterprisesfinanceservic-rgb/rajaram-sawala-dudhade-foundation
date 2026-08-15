@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kai. Rajaram Sawala Dudhade Foundation</title>
+    <meta
+      name="description"
+      content="Official website for Kai. Rajaram Sawala Dudhade Foundation, Dudhdewadi, Karad, Satara. Social welfare, medical help, education support, blood donation, and community service."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Foundation home">
+        <img src="assets/foundation-logo.jpeg" alt="Kai. Rajaram Sawala Dudhade Foundation logo" />
+        <span>
+          <strong data-i18n="brandShort">Rajaram Sawala Dudhade Foundation</strong>
+          <small data-i18n="brandPlace">Dudhdewadi, Karad, Satara</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#membership" data-i18n="navMembership">Membership</a>
+        <a href="#donations" data-i18n="navDonations">Donations</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <label class="language-select">
+        <span data-i18n="languageLabel">Language</span>
+        <select id="language" aria-label="Select language">
+          <option value="en">English</option>
+          <option value="mr">मराठी</option>
+          <option value="hi">हिंदी</option>
+        </select>
+      </label>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">Service • Trust • Social Welfare</p>
+          <h1 data-i18n="heroTitle">Kai. Rajaram Sawala Dudhade Foundation</h1>
+          <p class="hero-text" data-i18n="heroText">
+            A community-first NGO platform supporting urgent medical help, blood donation,
+            education assistance, social welfare initiatives, and transparent membership service.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#membership" data-i18n="heroJoin">Become a Member</a>
+            <a class="button secondary" href="#donations" data-i18n="heroDonate">Support the Work</a>
+          </div>
+          <div class="hero-stats" aria-label="Foundation focus areas">
+            <span><strong>8</strong><small data-i18n="statServices">Core services</small></span>
+            <span><strong>3</strong><small data-i18n="statLanguages">Languages</small></span>
+            <span><strong>24x7</strong><small data-i18n="statHelp">Help intent</small></span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/foundation-logo.jpeg" alt="Foundation emblem with founder portrait" />
+        </div>
+      </section>
+
+      <section id="about" class="section split">
+        <div>
+          <p class="section-kicker" data-i18n="aboutKicker">About the foundation</p>
+          <h2 data-i18n="aboutTitle">Built for timely help, trust, and measurable community impact.</h2>
+          <p data-i18n="aboutBody1">
+            The foundation works from Dudhdewadi, Taluka Karad, District Satara, Maharashtra, with a
+            clear purpose: to connect people with practical support during difficult moments and to
+            encourage organized social service.
+          </p>
+          <p data-i18n="aboutBody2">
+            The mobile app and website together create a transparent channel for membership,
+            service requests, activity updates, volunteer participation, and donation readiness.
+          </p>
+        </div>
+        <div class="identity-panel">
+          <h3 data-i18n="identityTitle">Identity details</h3>
+          <dl>
+            <div><dt data-i18n="identityNameLabel">Name</dt><dd data-i18n="identityName">Kai. Rajaram Sawala Dudhade Foundation</dd></div>
+            <div><dt data-i18n="identityFounderLabel">Founder / President</dt><dd data-i18n="identityFounder">Babubhai Dudhade</dd></div>
+            <div><dt data-i18n="identityAddressLabel">Address</dt><dd data-i18n="identityAddress">At. Dudhdewadi, Tal. Karad, Dist. Satara, Maharashtra</dd></div>
+            <div><dt data-i18n="identityStatusLabel">Purpose</dt><dd data-i18n="identityStatus">Social welfare and public service</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="servicesKicker">Our major services</p>
+          <h2 data-i18n="servicesTitle">Support areas designed around real community needs.</h2>
+        </div>
+        <div class="service-grid" id="serviceGrid"></div>
+      </section>
+
+      <section id="membership" class="section certificate-section">
+        <div class="certificate-copy">
+          <p class="section-kicker" data-i18n="membershipKicker">Membership</p>
+          <h2 data-i18n="membershipTitle">A clear membership journey for supporters and volunteers.</h2>
+          <p data-i18n="membershipText">
+            Members can register interest, participate in social activities, support campaigns, and
+            receive membership confirmation through the foundation’s process.
+          </p>
+          <ul class="check-list">
+            <li data-i18n="memberPoint1">Member record with date and membership number</li>
+            <li data-i18n="memberPoint2">Certificate-ready format for approved members</li>
+            <li data-i18n="memberPoint3">Useful for volunteers, donors, and local supporters</li>
+          </ul>
+        </div>
+        <button class="certificate-preview" type="button" id="openCertificate">
+          <img src="assets/membership-certificate.png" alt="Membership certificate preview" />
+          <span data-i18n="viewCertificate">View certificate design</span>
+        </button>
+      </section>
+
+      <section id="donations" class="section donation-section">
+        <div class="section-heading">
+          <p class="section-kicker" data-i18n="donationKicker">Donation and payment readiness</p>
+          <h2 data-i18n="donationTitle">Website sections expected during payment gateway review.</h2>
+        </div>
+        <div class="policy-grid">
+          <article><h3 data-i18n="policyUseTitle">Use of donations</h3><p data-i18n="policyUseText">Funds are intended for medical support, education help, welfare drives, community activities, and operational needs directly connected with foundation work.</p></article>
+          <article><h3 data-i18n="policyRefundTitle">Refund policy</h3><p data-i18n="policyRefundText">If a payment is made by mistake, the donor may contact the foundation with payment details. Refund eligibility will be reviewed according to the nature of the transaction and payment gateway rules.</p></article>
+          <article><h3 data-i18n="policyPrivacyTitle">Privacy policy</h3><p data-i18n="policyPrivacyText">Personal details shared for membership, donation, or service requests are used only for foundation communication, records, compliance, and service coordination.</p></article>
+          <article><h3 data-i18n="policyTermsTitle">Terms of service</h3><p data-i18n="policyTermsText">The website provides foundation information and service access. Users should provide accurate details and use donation or membership features responsibly.</p></article>
+        </div>
+      </section>
+
+      <section class="section app-review">
+        <div>
+          <p class="section-kicker" data-i18n="appKicker">Mobile app review focus</p>
+          <h2 data-i18n="appTitle">What should be ready before Razorpay integration.</h2>
+        </div>
+        <div class="review-list" id="reviewList"></div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div>
+          <p class="section-kicker" data-i18n="contactKicker">Contact and verification</p>
+          <h2 data-i18n="contactTitle">Official contact details can be added when the client confirms domain and email.</h2>
+          <p data-i18n="contactText">
+            For Razorpay and client review, use a domain email such as info@yourdomain.in, a verified
+            phone number, and the foundation address exactly as used in official documents.
+          </p>
+        </div>
+        <form class="contact-card">
+          <label><span data-i18n="formName">Name</span><input type="text" placeholder="Your name" /></label>
+          <label><span data-i18n="formPhone">Phone</span><input type="tel" placeholder="+91" /></label>
+          <label><span data-i18n="formMessage">Message</span><textarea rows="4" placeholder="How can the foundation help?"></textarea></label>
+          <button class="button primary" type="button" data-i18n="formButton">Submit enquiry</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <strong data-i18n="footerName">Kai. Rajaram Sawala Dudhade Foundation</strong>
+      <span data-i18n="footerLine">Service, trust, and social welfare from Dudhdewadi, Karad, Satara.</span>
+    </footer>
+
+    <dialog id="certificateDialog" class="dialog">
+      <button id="closeCertificate" class="dialog-close" aria-label="Close certificate preview">×</button>
+      <img src="assets/membership-certificate.png" alt="Large membership certificate preview" />
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
