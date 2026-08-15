@@ -247,7 +247,7 @@ p {
   aspect-ratio: 1;
   display: grid;
   place-items: center;
-  margin-bottom: 66px;
+  margin-bottom: 128px;
   transform-style: preserve-3d;
 }
 
@@ -311,12 +311,12 @@ p {
 .hero-image-strip {
   position: absolute;
   left: 50%;
-  bottom: -62px;
+  bottom: -122px;
   z-index: 4;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 10px;
-  width: min(440px, 86vw);
+  width: min(560px, 88vw);
   transform: translateX(-50%);
   pointer-events: none;
 }
@@ -324,7 +324,7 @@ p {
 .hero-image-strip img {
   display: block;
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   border: 3px solid rgba(255, 253, 247, 0.96);
   border-radius: 8px;
@@ -808,7 +808,7 @@ dd { margin: 4px 0 18px; color: var(--ink); font-weight: 800; line-height: 1.45;
     position: static;
     width: 100%;
     transform: none;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     order: 3;
   }
   .orbit { display: none; }
@@ -828,5 +828,5 @@ dd { margin: 4px 0 18px; color: var(--ink); font-weight: 800; line-height: 1.45;
   .button { width: 100%; }
   .footer { flex-direction: column; }
   .app-phone { min-height: 360px; }
-  .hero-image-strip { grid-template-columns: 1fr; }
+  .hero-image-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
