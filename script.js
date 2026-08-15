@@ -6,75 +6,108 @@ const content = {
     navAbout: "About",
     navServices: "Services",
     navMembership: "Membership",
-    navDonations: "Donations",
+    navApp: "App",
+    navSocial: "Social",
     navContact: "Contact",
     heroEyebrow: "Service • Trust • Social Welfare",
     heroTitle: "Kai. Rajaram Sawala Dudhade Foundation",
-    heroText: "A community-first NGO platform supporting urgent medical help, blood donation, education assistance, social welfare initiatives, and transparent membership service.",
-    heroJoin: "Become a Member",
-    heroDonate: "Support the Work",
-    statServices: "Core services",
-    statLanguages: "Languages",
-    statHelp: "Help intent",
+    heroText:
+      "A service-led foundation from Dudhdewadi, Karad, working to connect people with timely medical support, blood donation coordination, education assistance, and organized community welfare.",
+    heroJoin: "Membership Process",
+    heroFollow: "Follow Official Channels",
+    statServices: "Defined service areas",
+    statLanguages: "Website languages",
+    statMission: "Shared service mission",
+    floatingTrust: "Trusted member records",
+    floatingService: "Service request support",
     aboutKicker: "About the foundation",
-    aboutTitle: "Built for timely help, trust, and measurable community impact.",
-    aboutBody1: "The foundation works from Dudhdewadi, Taluka Karad, District Satara, Maharashtra, with a clear purpose: to connect people with practical support during difficult moments and to encourage organized social service.",
-    aboutBody2: "The mobile app and website together create a transparent channel for membership, service requests, activity updates, volunteer participation, and donation readiness.",
-    identityTitle: "Identity details",
+    aboutTitle: "A structured public-service platform rooted in local trust.",
+    aboutBody1:
+      "The foundation works from Dudhdewadi, Taluka Karad, District Satara, Maharashtra. Its purpose is to keep social help organized, traceable, and respectful for people who need timely support.",
+    aboutBody2:
+      "The website and mobile app are being aligned as one public system for membership, service requests, activity communication, volunteer participation, and payment readiness.",
+    identityTitle: "Official identity",
     identityNameLabel: "Name",
     identityName: "Kai. Rajaram Sawala Dudhade Foundation",
     identityFounderLabel: "Founder / President",
     identityFounder: "Babubhai Dudhade",
     identityAddressLabel: "Address",
     identityAddress: "At. Dudhdewadi, Tal. Karad, Dist. Satara, Maharashtra",
-    identityStatusLabel: "Purpose",
-    identityStatus: "Social welfare and public service",
-    servicesKicker: "Our major services",
-    servicesTitle: "Support areas designed around real community needs.",
+    identityStatusLabel: "Work focus",
+    identityStatus: "Social welfare, membership, and public service coordination",
+    servicesKicker: "Foundation services",
+    servicesTitle: "Clear service categories for real community support.",
+    servicesIntro:
+      "Each service category is intended to be handled through a documented member request, foundation review, operator assignment, and final status update.",
     membershipKicker: "Membership",
-    membershipTitle: "A clear membership journey for supporters and volunteers.",
-    membershipText: "Members can register interest, participate in social activities, support campaigns, and receive membership confirmation through the foundation’s process.",
-    memberPoint1: "Member record with date and membership number",
-    memberPoint2: "Certificate-ready format for approved members",
-    memberPoint3: "Useful for volunteers, donors, and local supporters",
+    membershipTitle: "Membership shall create a verified relationship with the foundation.",
+    membershipText:
+      "The membership journey is planned for structured registration, policy acceptance, payment confirmation, member number, certificate, receipt, and dashboard access.",
+    memberPoint1: "Approved member record with date and member number",
+    memberPoint2: "Certificate and receipt format aligned with foundation identity",
+    memberPoint3: "Service request access for members through the mobile app",
     viewCertificate: "View certificate design",
-    donationKicker: "Donation and payment readiness",
-    donationTitle: "Website sections expected during payment gateway review.",
-    policyUseTitle: "Use of donations",
-    policyUseText: "Funds are intended for medical support, education help, welfare drives, community activities, and operational needs directly connected with foundation work.",
-    policyRefundTitle: "Refund policy",
-    policyRefundText: "If a payment is made by mistake, the donor may contact the foundation with payment details. Refund eligibility will be reviewed according to the nature of the transaction and payment gateway rules.",
-    policyPrivacyTitle: "Privacy policy",
-    policyPrivacyText: "Personal details shared for membership, donation, or service requests are used only for foundation communication, records, compliance, and service coordination.",
-    policyTermsTitle: "Terms of service",
-    policyTermsText: "The website provides foundation information and service access. Users should provide accurate details and use donation or membership features responsibly.",
-    appKicker: "Mobile app review focus",
-    appTitle: "What should be ready before Razorpay integration.",
+    appKicker: "Mobile app access",
+    appTitle: "A dedicated routing area for member app access.",
+    appText:
+      "This website keeps a dedicated place for the foundation mobile app route. Once the Android release link is approved, this section can route members directly to install or open the app.",
+    appCardTitle: "Foundation Member App",
+    appCardStatus: "Android release route reserved",
+    socialKicker: "Official social channels",
+    socialTitle: "Follow foundation updates from verified public channels.",
+    socialText:
+      "These links help members, donors, volunteers, and reviewers verify the foundation’s public communication presence.",
+    youtubeText: "Foundation videos and public activity updates",
+    facebookText: "Community posts, announcements, and service updates",
+    instagramText: "Photos, moments, and activity highlights",
+    donationKicker: "Payment and policy readiness",
+    donationTitle: "Required disclosures for transparent membership and donation handling.",
+    policyUseTitle: "Use of funds",
+    policyUseText:
+      "Funds are intended for medical support, education help, welfare drives, community activities, and operational needs directly connected with foundation work.",
+    policyRefundTitle: "Refund and correction policy",
+    policyRefundText:
+      "If a payment is made by mistake, the payer shall contact the foundation with transaction details. Refund or correction eligibility will be reviewed according to the payment purpose and payment gateway rules.",
+    policyPrivacyTitle: "Privacy commitment",
+    policyPrivacyText:
+      "Personal details shared for membership, donation, or service requests shall be used only for foundation communication, records, compliance, and service coordination.",
+    policyTermsTitle: "User responsibility",
+    policyTermsText:
+      "Members and supporters shall provide accurate details, use the service request facility responsibly, and follow foundation verification requirements.",
+    reviewKicker: "Operational process",
+    reviewTitle: "How requests should move through the foundation workflow.",
     contactKicker: "Contact and verification",
-    contactTitle: "Official contact details can be added when the client confirms domain and email.",
-    contactText: "For Razorpay and client review, use a domain email such as info@yourdomain.in, a verified phone number, and the foundation address exactly as used in official documents.",
-    formName: "Name",
-    formPhone: "Phone",
-    formMessage: "Message",
-    formButton: "Submit enquiry",
+    contactTitle: "Official contact routes for members and reviewers.",
+    contactText:
+      "Until the domain email is activated, the foundation’s public social channels shall be used for communication visibility. The official domain email and phone number can be added here after client confirmation.",
+    contactCardTitle: "Website readiness note",
+    contactCardText:
+      "Domain email, official phone number, and custom domain connection are the remaining client-side items before final Razorpay documentation.",
+    contactSocial: "Open official social links",
+    contactApp: "View app route",
     footerName: "Kai. Rajaram Sawala Dudhade Foundation",
     footerLine: "Service, trust, and social welfare from Dudhdewadi, Karad, Satara.",
     services: [
-      ["Emergency medical help", "Coordination support for urgent medical needs, hospital guidance, essential aid, and timely local assistance."],
-      ["Blood donation network", "Organized blood donor contact and awareness support for families facing urgent requirements."],
-      ["Education assistance", "Guidance and support for students through learning material, fee assistance drives, and community mentoring."],
-      ["Financial aid", "Need-based support for genuine hardship cases, reviewed responsibly through foundation volunteers."],
-      ["Donation programs", "Structured social-giving initiatives for medicines, education, food, essentials, and local welfare drives."],
-      ["Community welfare schemes", "Campaigns for health, public awareness, social care, and support for vulnerable families."],
-      ["Volunteer registration", "A simple path for citizens to join the mission, participate in drives, and serve the community."],
-      ["Public awareness campaigns", "Local outreach for health, education, social responsibility, and timely assistance information."]
+      ["Emergency medical help", "Coordination for urgent medical needs, hospital guidance, essential aid, and timely local assistance."],
+      ["Blood donation support", "Blood donor contact support and awareness coordination for families facing urgent requirements."],
+      ["Education assistance", "Support for students through learning material, fee assistance drives, and community mentoring."],
+      ["Financial assistance", "Need-based help for genuine hardship cases, reviewed responsibly through foundation representatives."],
+      ["Donation programs", "Structured social-giving initiatives for medicines, education, food, essentials, and welfare drives."],
+      ["Community welfare", "Health, public awareness, social care, and support initiatives for vulnerable families."],
+      ["Volunteer registration", "A simple route for citizens to join drives, assist local work, and serve the community."],
+      ["Public awareness", "Local outreach for health, education, social responsibility, and timely assistance information."]
+    ],
+    appSteps: [
+      ["App route", "This website section is reserved for the approved Android app link."],
+      ["Member access", "Members shall use the app for registration, documents, dashboard, and service requests."],
+      ["Release control", "The final app link shall be added only after client approval and release verification."]
     ],
     review: [
-      ["Website identity", "Domain, official email, address, logo, organization name, and contact details should match app and documents."],
-      ["Policies", "Privacy policy, terms, refund/cancellation, and donation usage statements should be visible before payments go live."],
-      ["Payment flow", "Donation purpose, amount entry, receipt message, payment success/failure screens, and support contact must be clear."],
-      ["App content", "Welcome text, services, membership certificate, social links, and activity sections should use consistent spelling and branding."],
-      ["Compliance records", "Keep registration documents, PAN, bank account proof, authorized signatory details, and domain email ready for Razorpay KYC."]
+      ["Member request", "A member submits a service request through the app with category, priority, and notes."],
+      ["Admin review", "Foundation admin reviews the request and confirms whether it should move ahead."],
+      ["Operator intimation", "The assigned operator receives the request and acknowledges responsibility."],
+      ["Progress tracking", "Status, remarks, follow-up, escalation, and closure are recorded for accountability."],
+      ["Management view", "Reports shall show pending, resolved, delayed, and escalated service requests."]
     ]
   },
   mr: {
@@ -84,75 +117,108 @@ const content = {
     navAbout: "माहिती",
     navServices: "सेवा",
     navMembership: "सभासदत्व",
-    navDonations: "देणगी",
+    navApp: "ॲप",
+    navSocial: "सोशल",
     navContact: "संपर्क",
     heroEyebrow: "सेवाभाव • विश्वास • समाजहित",
     heroTitle: "कै. राजाराम सावळा दुधडे फाउंडेशन",
-    heroText: "आपत्कालीन वैद्यकीय मदत, रक्तदान संपर्क, शैक्षणिक सहाय्य, समाजकल्याण उपक्रम आणि पारदर्शक सभासद सेवा यासाठी तयार केलेले फाउंडेशन व्यासपीठ.",
-    heroJoin: "सभासद व्हा",
-    heroDonate: "कार्याला सहकार्य करा",
-    statServices: "मुख्य सेवा",
-    statLanguages: "भाषा",
-    statHelp: "मदतीची तयारी",
+    heroText:
+      "दुधडेवाडी, कराड येथून कार्य करणारे हे फाउंडेशन वेळेवर वैद्यकीय मदत, रक्तदान समन्वय, शैक्षणिक सहाय्य आणि शिस्तबद्ध समाजकल्याणासाठी लोकांना जोडते.",
+    heroJoin: "सभासद प्रक्रिया",
+    heroFollow: "अधिकृत चॅनेल पहा",
+    statServices: "निश्चित सेवा क्षेत्र",
+    statLanguages: "वेबसाइट भाषा",
+    statMission: "एकच सेवाभाव ध्येय",
+    floatingTrust: "विश्वासार्ह सभासद नोंदी",
+    floatingService: "सेवा विनंती सहाय्य",
     aboutKicker: "फाउंडेशन विषयी",
-    aboutTitle: "वेळेवर मदत, विश्वास आणि समाजासाठी परिणामकारक काम.",
-    aboutBody1: "फाउंडेशन महाराष्ट्र राज्यातील दुधडेवाडी, ता. कराड, जि. सातारा येथून समाजसेवेचे काम करते. अडचणीच्या वेळी लोकांना प्रत्यक्ष आणि योग्य मदत मिळवून देणे हा उद्देश आहे.",
-    aboutBody2: "मोबाईल अॅप आणि वेबसाइटच्या माध्यमातून सभासद नोंदणी, सेवा विनंती, उपक्रमांची माहिती, स्वयंसेवक सहभाग आणि देणगी प्रक्रिया अधिक पारदर्शक केली जाते.",
-    identityTitle: "ओळख तपशील",
+    aboutTitle: "स्थानिक विश्वासावर आधारित शिस्तबद्ध लोकसेवा व्यासपीठ.",
+    aboutBody1:
+      "फाउंडेशन महाराष्ट्र राज्यातील दुधडेवाडी, ता. कराड, जि. सातारा येथून कार्य करते. गरजू लोकांना वेळेवर, सन्मानपूर्वक आणि नोंदीसह मदत मिळावी हा उद्देश आहे.",
+    aboutBody2:
+      "वेबसाइट आणि मोबाईल ॲप सभासदत्व, सेवा विनंती, उपक्रम माहिती, स्वयंसेवक सहभाग आणि पेमेंट तयारी यासाठी एकत्रित सार्वजनिक प्रणाली म्हणून तयार केली जात आहे.",
+    identityTitle: "अधिकृत ओळख",
     identityNameLabel: "नाव",
     identityName: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     identityFounderLabel: "संस्थापक / अध्यक्ष",
     identityFounder: "बाबुभाई दुधडे",
     identityAddressLabel: "पत्ता",
     identityAddress: "मु. दुधडेवाडी, ता. कराड, जि. सातारा, महाराष्ट्र",
-    identityStatusLabel: "उद्देश",
-    identityStatus: "समाजकल्याण आणि लोकसेवा",
-    servicesKicker: "आमच्या प्रमुख सेवा",
-    servicesTitle: "समाजाच्या खरी गरज लक्षात घेऊन तयार केलेले सेवा क्षेत्र.",
+    identityStatusLabel: "कार्य क्षेत्र",
+    identityStatus: "समाजकल्याण, सभासदत्व आणि लोकसेवा समन्वय",
+    servicesKicker: "फाउंडेशन सेवा",
+    servicesTitle: "समाजाच्या खऱ्या गरजांसाठी स्पष्ट सेवा विभाग.",
+    servicesIntro:
+      "प्रत्येक सेवा विभाग सभासद विनंती, फाउंडेशन पुनरावलोकन, ऑपरेटर नेमणूक आणि अंतिम स्थिती नोंदीद्वारे हाताळणे अपेक्षित आहे.",
     membershipKicker: "सभासदत्व",
-    membershipTitle: "समर्थक आणि स्वयंसेवकांसाठी स्पष्ट सभासद प्रक्रिया.",
-    membershipText: "सभासद सामाजिक उपक्रमात सहभागी होऊ शकतात, अभियानांना सहकार्य करू शकतात आणि फाउंडेशनच्या प्रक्रियेनुसार सभासदत्व पुष्टी मिळवू शकतात.",
-    memberPoint1: "दिनांक आणि सभासद क्रमांकासह नोंद",
-    memberPoint2: "मंजूर सभासदांसाठी प्रमाणपत्र स्वरूप",
-    memberPoint3: "स्वयंसेवक, देणगीदार आणि स्थानिक समर्थकांसाठी उपयुक्त",
+    membershipTitle: "सभासदत्वामुळे फाउंडेशनसोबत पडताळलेले नाते तयार होईल.",
+    membershipText:
+      "सभासद प्रवासात नोंदणी, धोरण संमती, पेमेंट पुष्टी, सभासद क्रमांक, प्रमाणपत्र, पावती आणि डॅशबोर्ड प्रवेश यांचा समावेश अपेक्षित आहे.",
+    memberPoint1: "दिनांक आणि सभासद क्रमांकासह मंजूर नोंद",
+    memberPoint2: "फाउंडेशन ओळखीशी जुळणारे प्रमाणपत्र आणि पावती स्वरूप",
+    memberPoint3: "मोबाईल ॲपमधून सभासदांसाठी सेवा विनंती प्रवेश",
     viewCertificate: "प्रमाणपत्र रचना पहा",
-    donationKicker: "देणगी आणि पेमेंट तयारी",
-    donationTitle: "पेमेंट गेटवे तपासणीसाठी आवश्यक वेबसाइट विभाग.",
-    policyUseTitle: "देणगीचा वापर",
-    policyUseText: "देणगी वैद्यकीय मदत, शैक्षणिक सहाय्य, समाजकल्याण उपक्रम, जनजागृती आणि फाउंडेशनच्या कामाशी संबंधित आवश्यक खर्चासाठी वापरली जाते.",
-    policyRefundTitle: "परतावा धोरण",
-    policyRefundText: "चुकून पेमेंट झाल्यास देणगीदाराने पेमेंट तपशीलासह फाउंडेशनशी संपर्क साधावा. व्यवहाराचे स्वरूप आणि पेमेंट गेटवे नियमांनुसार परतावा तपासला जाईल.",
-    policyPrivacyTitle: "गोपनीयता धोरण",
-    policyPrivacyText: "सभासदत्व, देणगी किंवा सेवा विनंतीसाठी दिलेली माहिती फाउंडेशन संपर्क, नोंदी, अनुपालन आणि सेवा समन्वयासाठीच वापरली जाते.",
-    policyTermsTitle: "सेवा अटी",
-    policyTermsText: "वेबसाइट फाउंडेशनची माहिती आणि सेवा प्रवेश देते. वापरकर्त्यांनी अचूक माहिती द्यावी आणि देणगी किंवा सभासद सुविधा जबाबदारीने वापराव्यात.",
-    appKicker: "मोबाईल अॅप तपासणी",
-    appTitle: "Razorpay जोडणीपूर्वी तयार असावयाच्या गोष्टी.",
+    appKicker: "मोबाईल ॲप प्रवेश",
+    appTitle: "सभासद ॲप प्रवेशासाठी स्वतंत्र रूटिंग विभाग.",
+    appText:
+      "या वेबसाइटमध्ये फाउंडेशन मोबाईल ॲपसाठी स्वतंत्र जागा ठेवली आहे. Android रिलीज दुवा मान्य झाल्यावर याच विभागातून सभासदांना ॲप स्थापित किंवा उघडता येईल.",
+    appCardTitle: "फाउंडेशन सभासद ॲप",
+    appCardStatus: "Android रिलीज दुवा राखीव",
+    socialKicker: "अधिकृत सोशल चॅनेल",
+    socialTitle: "फाउंडेशनचे अपडेट अधिकृत सार्वजनिक चॅनेलवर पहा.",
+    socialText:
+      "हे दुवे सभासद, देणगीदार, स्वयंसेवक आणि पुनरावलोकन करणाऱ्यांना फाउंडेशनची सार्वजनिक उपस्थिती तपासण्यास मदत करतात.",
+    youtubeText: "फाउंडेशन व्हिडिओ आणि सार्वजनिक उपक्रम अपडेट",
+    facebookText: "समुदाय पोस्ट, घोषणा आणि सेवा अपडेट",
+    instagramText: "फोटो, क्षण आणि उपक्रम झलक",
+    donationKicker: "पेमेंट आणि धोरण तयारी",
+    donationTitle: "सभासदत्व आणि देणगी व्यवहारासाठी पारदर्शक खुलासे.",
+    policyUseTitle: "निधीचा वापर",
+    policyUseText:
+      "निधी वैद्यकीय मदत, शैक्षणिक सहाय्य, समाजकल्याण उपक्रम, समुदाय कामे आणि फाउंडेशनशी थेट संबंधित आवश्यक खर्चासाठी वापरला जाईल.",
+    policyRefundTitle: "परतावा आणि दुरुस्ती धोरण",
+    policyRefundText:
+      "चुकून पेमेंट झाल्यास व्यवहार तपशीलासह फाउंडेशनशी संपर्क साधावा. पेमेंटचा उद्देश आणि पेमेंट गेटवे नियमांनुसार परतावा किंवा दुरुस्ती पात्रता तपासली जाईल.",
+    policyPrivacyTitle: "गोपनीयता बांधिलकी",
+    policyPrivacyText:
+      "सभासदत्व, देणगी किंवा सेवा विनंतीसाठी दिलेली वैयक्तिक माहिती फाउंडेशन संपर्क, नोंदी, अनुपालन आणि सेवा समन्वयासाठीच वापरली जाईल.",
+    policyTermsTitle: "वापरकर्ता जबाबदारी",
+    policyTermsText:
+      "सभासद आणि समर्थकांनी अचूक माहिती द्यावी, सेवा विनंती सुविधा जबाबदारीने वापरावी आणि फाउंडेशन पडताळणी आवश्यकता पाळाव्यात.",
+    reviewKicker: "कार्यप्रवाह प्रक्रिया",
+    reviewTitle: "विनंत्या फाउंडेशन कार्यप्रवाहातून कशा पुढे जाव्यात.",
     contactKicker: "संपर्क आणि पडताळणी",
-    contactTitle: "क्लायंटकडून डोमेन आणि ईमेल निश्चित झाल्यावर अधिकृत संपर्क तपशील जोडता येतील.",
-    contactText: "Razorpay आणि क्लायंट तपासणीसाठी info@yourdomain.in सारखा डोमेन ईमेल, पडताळलेला फोन नंबर आणि अधिकृत कागदपत्रातील पत्ता वापरणे योग्य राहील.",
-    formName: "नाव",
-    formPhone: "फोन",
-    formMessage: "संदेश",
-    formButton: "चौकशी पाठवा",
+    contactTitle: "सभासद आणि पुनरावलोकनासाठी अधिकृत संपर्क मार्ग.",
+    contactText:
+      "डोमेन ईमेल सक्रिय होईपर्यंत सार्वजनिक सोशल चॅनेलद्वारे फाउंडेशनची संपर्क दृश्यमानता ठेवली जाईल. क्लायंट पुष्टीनंतर अधिकृत डोमेन ईमेल आणि फोन नंबर येथे जोडता येईल.",
+    contactCardTitle: "वेबसाइट तयारी नोंद",
+    contactCardText:
+      "डोमेन ईमेल, अधिकृत फोन नंबर आणि कस्टम डोमेन जोडणी ही अंतिम Razorpay दस्तऐवजीकरणापूर्वीची उर्वरित क्लायंटकडील कामे आहेत.",
+    contactSocial: "अधिकृत सोशल दुवे उघडा",
+    contactApp: "ॲप रूट पहा",
     footerName: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     footerLine: "दुधडेवाडी, कराड, सातारा येथून सेवाभाव, विश्वास आणि समाजहित.",
     services: [
-      ["आपत्कालीन वैद्यकीय मदत", "तातडीच्या आरोग्य गरजांसाठी समन्वय, हॉस्पिटल मार्गदर्शन आणि स्थानिक मदत."],
-      ["रक्तदान संपर्क", "तातडीच्या रक्त आवश्यकतेसाठी दाते संपर्क आणि जनजागृती सहाय्य."],
-      ["शैक्षणिक सहाय्य", "विद्यार्थ्यांसाठी शिक्षण साहित्य, फी सहाय्य उपक्रम आणि मार्गदर्शन."],
-      ["आर्थिक मदत", "खऱ्या गरजू प्रकरणांसाठी जबाबदारीने तपासून मदत."],
-      ["दान उपक्रम", "औषधे, शिक्षण, अन्न, आवश्यक वस्तू आणि समाजकार्य यासाठी नियोजित देणगी उपक्रम."],
-      ["समाजकल्याण योजना", "आरोग्य, जनजागृती, सामाजिक काळजी आणि दुर्बल कुटुंबांसाठी अभियान."],
-      ["स्वयंसेवक नोंदणी", "नागरिकांना समाजसेवेत सहभागी होण्यासाठी सोपी प्रक्रिया."],
-      ["जनजागृती अभियान", "आरोग्य, शिक्षण, सामाजिक जबाबदारी आणि वेळेवर मदत यासाठी स्थानिक संपर्क."]
+      ["आपत्कालीन वैद्यकीय मदत", "तातडीच्या आरोग्य गरजांसाठी समन्वय, रुग्णालय मार्गदर्शन, आवश्यक मदत आणि स्थानिक सहाय्य."],
+      ["रक्तदान सहाय्य", "तातडीच्या रक्त आवश्यकतेसाठी रक्तदाता संपर्क आणि जनजागृती समन्वय."],
+      ["शैक्षणिक सहाय्य", "विद्यार्थ्यांसाठी शिक्षण साहित्य, फी सहाय्य उपक्रम आणि समुदाय मार्गदर्शन."],
+      ["आर्थिक मदत", "खऱ्या अडचणीतील प्रकरणांसाठी फाउंडेशन प्रतिनिधीद्वारे जबाबदारीने तपासलेली मदत."],
+      ["दान उपक्रम", "औषधे, शिक्षण, अन्न, आवश्यक वस्तू आणि समाजकल्याणासाठी नियोजित दान उपक्रम."],
+      ["समुदाय कल्याण", "आरोग्य, जनजागृती, सामाजिक काळजी आणि दुर्बल कुटुंबांसाठी सहाय्य उपक्रम."],
+      ["स्वयंसेवक नोंदणी", "नागरिकांना अभियानात सहभागी होण्यासाठी, स्थानिक कामात मदत करण्यासाठी आणि समाजसेवा करण्यासाठी मार्ग."],
+      ["जनजागृती", "आरोग्य, शिक्षण, सामाजिक जबाबदारी आणि वेळेवर मदत यासाठी स्थानिक संपर्क."]
+    ],
+    appSteps: [
+      ["ॲप रूट", "मान्य Android ॲप दुव्यासाठी हा वेबसाइट विभाग राखीव आहे."],
+      ["सभासद प्रवेश", "नोंदणी, दस्तऐवज, डॅशबोर्ड आणि सेवा विनंतीसाठी सभासद ॲप वापरतील."],
+      ["रिलीज नियंत्रण", "अंतिम ॲप दुवा क्लायंट मान्यता आणि रिलीज पडताळणीनंतरच जोडला जाईल."]
     ],
     review: [
-      ["वेबसाइट ओळख", "डोमेन, अधिकृत ईमेल, पत्ता, लोगो, संस्था नाव आणि संपर्क तपशील अॅप व कागदपत्रांशी जुळले पाहिजेत."],
-      ["धोरणे", "पेमेंट सुरू करण्यापूर्वी गोपनीयता, अटी, परतावा आणि देणगी वापर माहिती दिसली पाहिजे."],
-      ["पेमेंट प्रवाह", "देणगी उद्देश, रक्कम, पावती संदेश, यश/अपयश स्क्रीन आणि मदत संपर्क स्पष्ट असावा."],
-      ["अॅप मजकूर", "Welcome text, सेवा, प्रमाणपत्र, social links आणि activity sections मध्ये spelling आणि branding consistent असावे."],
-      ["अनुपालन कागदपत्रे", "नोंदणी कागदपत्रे, PAN, bank proof, authorized signatory आणि domain email Razorpay KYC साठी तयार ठेवा."]
+      ["सभासद विनंती", "सभासद ॲपमधून सेवा प्रकार, प्राधान्य आणि नोंदीसह विनंती पाठवतो."],
+      ["प्रशासक पुनरावलोकन", "फाउंडेशन प्रशासक विनंती तपासतो आणि पुढे पाठवायची का ते ठरवतो."],
+      ["ऑपरेटर सूचना", "नेमलेल्या ऑपरेटरला विनंती मिळते आणि तो जबाबदारी स्वीकारतो."],
+      ["प्रगती नोंद", "स्थिती, टिप्पणी, फॉलो-अप, पुढे पाठवणे आणि बंद करणे नोंदवले जाते."],
+      ["व्यवस्थापन दृश्य", "अहवालात प्रलंबित, पूर्ण, विलंबित आणि पुढे पाठवलेल्या विनंत्या दिसतील."]
     ]
   },
   hi: {
@@ -162,84 +228,118 @@ const content = {
     navAbout: "परिचय",
     navServices: "सेवाएं",
     navMembership: "सदस्यता",
-    navDonations: "दान",
+    navApp: "ऐप",
+    navSocial: "सोशल",
     navContact: "संपर्क",
     heroEyebrow: "सेवा • विश्वास • समाजहित",
     heroTitle: "कै. राजाराम सावळा दुधडे फाउंडेशन",
-    heroText: "आपातकालीन चिकित्सा सहायता, रक्तदान संपर्क, शिक्षा सहायता, समाज कल्याण कार्यक्रम और पारदर्शी सदस्यता सेवा के लिए बनाया गया NGO प्लेटफॉर्म.",
-    heroJoin: "सदस्य बनें",
-    heroDonate: "कार्य में सहयोग करें",
-    statServices: "मुख्य सेवाएं",
-    statLanguages: "भाषाएं",
-    statHelp: "सहायता भावना",
+    heroText:
+      "दुधडेवाडी, कराड से कार्य करने वाला यह फाउंडेशन समय पर चिकित्सा सहायता, रक्तदान समन्वय, शिक्षा सहायता और संगठित समाज कल्याण से लोगों को जोड़ता है.",
+    heroJoin: "सदस्यता प्रक्रिया",
+    heroFollow: "आधिकारिक चैनल देखें",
+    statServices: "निर्धारित सेवा क्षेत्र",
+    statLanguages: "वेबसाइट भाषाएं",
+    statMission: "एक सेवा उद्देश्य",
+    floatingTrust: "विश्वसनीय सदस्य रिकॉर्ड",
+    floatingService: "सेवा अनुरोध सहायता",
     aboutKicker: "फाउंडेशन के बारे में",
-    aboutTitle: "समय पर सहायता, भरोसा और समाज के लिए स्पष्ट प्रभाव.",
-    aboutBody1: "फाउंडेशन महाराष्ट्र के दुधडेवाडी, तालुका कराड, जिला सातारा से समाजसेवा का कार्य करता है. उद्देश्य है कठिन समय में लोगों को व्यावहारिक सहायता से जोड़ना.",
-    aboutBody2: "मोबाइल ऐप और वेबसाइट मिलकर सदस्यता, सेवा अनुरोध, गतिविधि अपडेट, स्वयंसेवक भागीदारी और दान प्रक्रिया को पारदर्शी बनाते हैं.",
-    identityTitle: "पहचान विवरण",
+    aboutTitle: "स्थानीय भरोसे पर आधारित व्यवस्थित जनसेवा प्लेटफॉर्म.",
+    aboutBody1:
+      "फाउंडेशन महाराष्ट्र के दुधडेवाडी, तालुका कराड, जिला सातारा से कार्य करता है. उद्देश्य है कि जरूरतमंद लोगों को समय पर, सम्मानपूर्वक और रिकॉर्ड के साथ सहायता मिले.",
+    aboutBody2:
+      "वेबसाइट और मोबाइल ऐप सदस्यता, सेवा अनुरोध, गतिविधि जानकारी, स्वयंसेवक भागीदारी और भुगतान तैयारी के लिए एक सार्वजनिक प्रणाली के रूप में जोड़े जा रहे हैं.",
+    identityTitle: "आधिकारिक पहचान",
     identityNameLabel: "नाम",
     identityName: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     identityFounderLabel: "संस्थापक / अध्यक्ष",
     identityFounder: "बाबुभाई दुधडे",
     identityAddressLabel: "पता",
     identityAddress: "मु. दुधडेवाडी, ता. कराड, जि. सातारा, महाराष्ट्र",
-    identityStatusLabel: "उद्देश्य",
-    identityStatus: "समाज कल्याण और जनसेवा",
-    servicesKicker: "हमारी प्रमुख सेवाएं",
-    servicesTitle: "समुदाय की वास्तविक जरूरतों के लिए तैयार सेवा क्षेत्र.",
+    identityStatusLabel: "कार्य क्षेत्र",
+    identityStatus: "समाज कल्याण, सदस्यता और जनसेवा समन्वय",
+    servicesKicker: "फाउंडेशन सेवाएं",
+    servicesTitle: "समुदाय की वास्तविक जरूरतों के लिए स्पष्ट सेवा विभाग.",
+    servicesIntro:
+      "प्रत्येक सेवा विभाग को सदस्य अनुरोध, फाउंडेशन समीक्षा, ऑपरेटर नियुक्ति और अंतिम स्थिति अपडेट के साथ संभालना अपेक्षित है.",
     membershipKicker: "सदस्यता",
-    membershipTitle: "समर्थकों और स्वयंसेवकों के लिए स्पष्ट सदस्यता प्रक्रिया.",
-    membershipText: "सदस्य सामाजिक गतिविधियों में भाग ले सकते हैं, अभियानों में सहयोग कर सकते हैं और फाउंडेशन प्रक्रिया के अनुसार सदस्यता पुष्टि प्राप्त कर सकते हैं.",
-    memberPoint1: "दिनांक और सदस्य संख्या के साथ रिकॉर्ड",
-    memberPoint2: "स्वीकृत सदस्यों के लिए प्रमाणपत्र प्रारूप",
-    memberPoint3: "स्वयंसेवकों, दाताओं और स्थानीय समर्थकों के लिए उपयोगी",
+    membershipTitle: "सदस्यता फाउंडेशन के साथ सत्यापित संबंध बनाएगी.",
+    membershipText:
+      "सदस्यता प्रक्रिया में पंजीकरण, नीति स्वीकृति, भुगतान पुष्टि, सदस्य संख्या, प्रमाणपत्र, रसीद और डैशबोर्ड पहुंच शामिल होगी.",
+    memberPoint1: "दिनांक और सदस्य संख्या के साथ स्वीकृत रिकॉर्ड",
+    memberPoint2: "फाउंडेशन पहचान से मेल खाते प्रमाणपत्र और रसीद प्रारूप",
+    memberPoint3: "मोबाइल ऐप से सदस्यों के लिए सेवा अनुरोध सुविधा",
     viewCertificate: "प्रमाणपत्र डिजाइन देखें",
-    donationKicker: "दान और भुगतान तैयारी",
-    donationTitle: "पेमेंट गेटवे समीक्षा के लिए जरूरी वेबसाइट सेक्शन.",
-    policyUseTitle: "दान का उपयोग",
-    policyUseText: "दान का उपयोग चिकित्सा सहायता, शिक्षा मदद, समाज कल्याण अभियान, जनजागृति और फाउंडेशन कार्य से जुड़े आवश्यक खर्चों के लिए किया जाता है.",
-    policyRefundTitle: "रिफंड नीति",
-    policyRefundText: "गलती से भुगतान होने पर दाता भुगतान विवरण के साथ फाउंडेशन से संपर्क कर सकता है. रिफंड पात्रता लेनदेन और पेमेंट गेटवे नियमों के अनुसार देखी जाएगी.",
-    policyPrivacyTitle: "गोपनीयता नीति",
-    policyPrivacyText: "सदस्यता, दान या सेवा अनुरोध के लिए दी गई जानकारी केवल फाउंडेशन संपर्क, रिकॉर्ड, अनुपालन और सेवा समन्वय के लिए उपयोग की जाती है.",
-    policyTermsTitle: "सेवा शर्तें",
-    policyTermsText: "वेबसाइट फाउंडेशन जानकारी और सेवा पहुंच देती है. उपयोगकर्ताओं को सही जानकारी देनी चाहिए और दान या सदस्यता सुविधाओं का जिम्मेदारी से उपयोग करना चाहिए.",
-    appKicker: "मोबाइल ऐप समीक्षा",
-    appTitle: "Razorpay integration से पहले क्या तैयार होना चाहिए.",
+    appKicker: "मोबाइल ऐप पहुंच",
+    appTitle: "सदस्य ऐप पहुंच के लिए अलग रूटिंग विभाग.",
+    appText:
+      "इस वेबसाइट में फाउंडेशन मोबाइल ऐप के लिए अलग स्थान रखा गया है. Android release link स्वीकृत होने के बाद सदस्य इसी विभाग से ऐप install या open कर सकेंगे.",
+    appCardTitle: "फाउंडेशन सदस्य ऐप",
+    appCardStatus: "Android release link reserved",
+    socialKicker: "आधिकारिक सोशल चैनल",
+    socialTitle: "फाउंडेशन अपडेट आधिकारिक सार्वजनिक चैनलों पर देखें.",
+    socialText:
+      "ये लिंक सदस्यों, दाताओं, स्वयंसेवकों और reviewers को फाउंडेशन की सार्वजनिक उपस्थिति सत्यापित करने में मदद करते हैं.",
+    youtubeText: "फाउंडेशन वीडियो और सार्वजनिक गतिविधि अपडेट",
+    facebookText: "समुदाय पोस्ट, घोषणाएं और सेवा अपडेट",
+    instagramText: "फोटो, क्षण और गतिविधि highlights",
+    donationKicker: "भुगतान और नीति तैयारी",
+    donationTitle: "सदस्यता और दान संभालने के लिए पारदर्शी घोषणाएं.",
+    policyUseTitle: "धन का उपयोग",
+    policyUseText:
+      "धन चिकित्सा सहायता, शिक्षा सहायता, समाज कल्याण कार्यक्रम, सामुदायिक कार्य और फाउंडेशन कार्य से जुड़े आवश्यक खर्चों के लिए उपयोग किया जाएगा.",
+    policyRefundTitle: "रिफंड और सुधार नीति",
+    policyRefundText:
+      "गलती से भुगतान होने पर भुगतान विवरण के साथ फाउंडेशन से संपर्क करना होगा. भुगतान उद्देश्य और payment gateway rules के अनुसार refund या correction eligibility देखी जाएगी.",
+    policyPrivacyTitle: "गोपनीयता प्रतिबद्धता",
+    policyPrivacyText:
+      "सदस्यता, दान या सेवा अनुरोध के लिए दी गई व्यक्तिगत जानकारी केवल फाउंडेशन संपर्क, रिकॉर्ड, अनुपालन और सेवा समन्वय के लिए उपयोग होगी.",
+    policyTermsTitle: "उपयोगकर्ता जिम्मेदारी",
+    policyTermsText:
+      "सदस्यों और समर्थकों को सही जानकारी देनी होगी, सेवा अनुरोध सुविधा जिम्मेदारी से उपयोग करनी होगी और फाउंडेशन verification requirements का पालन करना होगा.",
+    reviewKicker: "कार्यप्रवाह प्रक्रिया",
+    reviewTitle: "अनुरोध फाउंडेशन workflow से कैसे आगे बढ़ेंगे.",
     contactKicker: "संपर्क और सत्यापन",
-    contactTitle: "क्लाइंट द्वारा domain और email confirm होने पर official contact details जोड़ी जा सकती हैं.",
-    contactText: "Razorpay और client review के लिए info@yourdomain.in जैसा domain email, verified phone number और official documents वाला address उपयोग करें.",
-    formName: "नाम",
-    formPhone: "फोन",
-    formMessage: "संदेश",
-    formButton: "पूछताछ भेजें",
+    contactTitle: "सदस्यों और reviewers के लिए आधिकारिक संपर्क मार्ग.",
+    contactText:
+      "Domain email सक्रिय होने तक फाउंडेशन के सार्वजनिक social channels communication visibility के लिए उपयोग होंगे. Client confirmation के बाद official domain email और phone number यहां जोड़े जा सकते हैं.",
+    contactCardTitle: "वेबसाइट तैयारी नोट",
+    contactCardText:
+      "Domain email, official phone number और custom domain connection अंतिम Razorpay documentation से पहले बाकी client-side items हैं.",
+    contactSocial: "आधिकारिक सोशल लिंक खोलें",
+    contactApp: "ऐप रूट देखें",
     footerName: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     footerLine: "दुधडेवाडी, कराड, सातारा से सेवा, विश्वास और समाजहित.",
     services: [
-      ["आपातकालीन चिकित्सा सहायता", "जरूरी स्वास्थ्य जरूरतों के लिए समन्वय, अस्पताल मार्गदर्शन और स्थानीय सहायता."],
-      ["रक्तदान संपर्क", "जरूरी रक्त आवश्यकता के लिए दाता संपर्क और जागरूकता सहायता."],
-      ["शिक्षा सहायता", "छात्रों के लिए शिक्षा सामग्री, फीस सहायता अभियान और मार्गदर्शन."],
-      ["आर्थिक सहायता", "वास्तविक जरूरतमंद मामलों में जिम्मेदारी से समीक्षा के बाद सहायता."],
-      ["दान कार्यक्रम", "दवाइयों, शिक्षा, भोजन, जरूरी वस्तुओं और स्थानीय कल्याण के लिए योजनाबद्ध दान कार्यक्रम."],
-      ["समाज कल्याण योजनाएं", "स्वास्थ्य, जागरूकता, सामाजिक देखभाल और कमजोर परिवारों के लिए अभियान."],
-      ["स्वयंसेवक पंजीकरण", "नागरिकों के लिए मिशन से जुड़ने और सेवा में भाग लेने का सरल रास्ता."],
-      ["जनजागृति अभियान", "स्वास्थ्य, शिक्षा, सामाजिक जिम्मेदारी और समय पर सहायता की जानकारी."]
+      ["आपातकालीन चिकित्सा सहायता", "तत्काल स्वास्थ्य जरूरतों के लिए समन्वय, अस्पताल मार्गदर्शन, आवश्यक मदद और स्थानीय सहायता."],
+      ["रक्तदान सहायता", "तत्काल रक्त जरूरत के लिए रक्तदाता संपर्क और जागरूकता समन्वय."],
+      ["शिक्षा सहायता", "छात्रों के लिए शिक्षण सामग्री, फीस सहायता अभियान और समुदाय मार्गदर्शन."],
+      ["आर्थिक सहायता", "वास्तविक कठिनाई वाले मामलों के लिए फाउंडेशन प्रतिनिधियों द्वारा जिम्मेदारी से समीक्षा की गई सहायता."],
+      ["दान कार्यक्रम", "दवाइयों, शिक्षा, भोजन, आवश्यक वस्तुओं और समाज कल्याण के लिए योजनाबद्ध दान कार्यक्रम."],
+      ["समुदाय कल्याण", "स्वास्थ्य, जनजागृति, सामाजिक देखभाल और कमजोर परिवारों के लिए सहायता कार्यक्रम."],
+      ["स्वयंसेवक पंजीकरण", "नागरिकों को अभियान में शामिल होने, स्थानीय काम में सहायता करने और समाजसेवा करने का मार्ग."],
+      ["जनजागृति", "स्वास्थ्य, शिक्षा, सामाजिक जिम्मेदारी और समय पर सहायता के लिए स्थानीय संपर्क."]
+    ],
+    appSteps: [
+      ["ऐप रूट", "स्वीकृत Android ऐप लिंक के लिए यह वेबसाइट विभाग reserved है."],
+      ["सदस्य पहुंच", "पंजीकरण, दस्तावेज, डैशबोर्ड और सेवा अनुरोध के लिए सदस्य ऐप उपयोग करेंगे."],
+      ["रिलीज नियंत्रण", "अंतिम ऐप लिंक client approval और release verification के बाद ही जोड़ा जाएगा."]
     ],
     review: [
-      ["वेबसाइट पहचान", "Domain, official email, address, logo, organization name और contact details app व documents से match होने चाहिए."],
-      ["नीतियां", "Payment live होने से पहले privacy policy, terms, refund/cancellation और donation usage visible होना चाहिए."],
-      ["Payment flow", "Donation purpose, amount, receipt message, success/failure screen और support contact साफ होना चाहिए."],
-      ["App content", "Welcome text, services, certificate, social links और activity sections में spelling और branding consistent रखें."],
-      ["Compliance records", "Registration documents, PAN, bank account proof, authorized signatory details और domain email Razorpay KYC के लिए ready रखें."]
+      ["सदस्य अनुरोध", "सदस्य ऐप से सेवा प्रकार, प्राथमिकता और नोट्स के साथ अनुरोध भेजता है."],
+      ["प्रशासक समीक्षा", "फाउंडेशन admin अनुरोध देखता है और आगे भेजना है या नहीं तय करता है."],
+      ["ऑपरेटर सूचना", "नियुक्त operator को अनुरोध मिलता है और वह जिम्मेदारी स्वीकार करता है."],
+      ["प्रगति रिकॉर्ड", "स्थिति, टिप्पणी, follow-up, escalation और closure रिकॉर्ड किए जाते हैं."],
+      ["प्रबंधन दृश्य", "Reports में pending, resolved, delayed और escalated service requests दिखेंगी."]
     ]
   }
 };
 
-const icons = ["✚", " रक्त", "▣", "₹", "🎁", "●", "✋", "↗"];
+const icons = ["✚", "रक्त", "▣", "₹", "🎁", "●", "✋", "↗"];
 
 const languageSelect = document.querySelector("#language");
 const serviceGrid = document.querySelector("#serviceGrid");
 const reviewList = document.querySelector("#reviewList");
+const appSteps = document.querySelector("#appSteps");
 
 function setLanguage(lang) {
   const dict = content[lang] || content.en;
@@ -255,10 +355,24 @@ function setLanguage(lang) {
   serviceGrid.innerHTML = dict.services
     .map(
       ([title, text], index) => `
-        <article class="service-card">
+        <article class="service-card tilt-card">
           <div class="service-icon" aria-hidden="true">${icons[index]}</div>
           <h3>${title}</h3>
           <p>${text}</p>
+        </article>
+      `
+    )
+    .join("");
+
+  appSteps.innerHTML = dict.appSteps
+    .map(
+      ([title, text], index) => `
+        <article class="app-step">
+          <span>${index + 1}</span>
+          <div>
+            <strong>${title}</strong>
+            <p>${text}</p>
+          </div>
         </article>
       `
     )
@@ -293,3 +407,14 @@ document.querySelector("#closeCertificate").addEventListener("click", () => dial
 dialog.addEventListener("click", (event) => {
   if (event.target === dialog) dialog.close();
 });
+
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) entry.target.classList.add("is-visible");
+    });
+  },
+  { threshold: 0.12 }
+);
+
+document.querySelectorAll(".reveal").forEach((section) => revealObserver.observe(section));
