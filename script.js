@@ -1,6 +1,6 @@
 const content = {
   en: {
-    brandShort: "Rajaram Sawala Dudhade Foundation",
+    brandShort: "Kai. Rajaram Sawala Dudhade Foundation",
     brandPlace: "Dudhdewadi, Karad, Satara",
     languageLabel: "Language",
     navAbout: "About",
@@ -109,7 +109,7 @@ const content = {
     ]
   },
   mr: {
-    brandShort: "राजाराम सावळा दुधडे फाउंडेशन",
+    brandShort: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     brandPlace: "दुधडेवाडी, कराड, सातारा",
     languageLabel: "भाषा",
     navAbout: "माहिती",
@@ -218,7 +218,7 @@ const content = {
     ]
   },
   hi: {
-    brandShort: "राजाराम सावळा दुधडे फाउंडेशन",
+    brandShort: "कै. राजाराम सावळा दुधडे फाउंडेशन",
     brandPlace: "दुधडेवाडी, कराड, सातारा",
     languageLabel: "भाषा",
     navAbout: "परिचय",
@@ -328,7 +328,7 @@ const content = {
   }
 };
 
-const icons = ["✚", "रक्त", "▣", "₹", "🎁", "●", "✋", "↗"];
+const icons = ["🏥", "🩸", "🎓", "₹", "🎁", "🤝", "✋", "📢"];
 const serviceImages = [
   "assets/service-medical.jpg",
   "assets/service-blood.jpg",
