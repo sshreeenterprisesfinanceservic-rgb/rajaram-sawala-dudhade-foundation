@@ -1182,6 +1182,108 @@ dd { margin: 4px 0 18px; color: var(--ink); font-weight: 800; line-height: 1.45;
     gap: 24px;
   }
 
+  #about.split {
+    isolation: isolate;
+    overflow: hidden;
+    padding-top: 62px;
+    background:
+      linear-gradient(180deg, rgba(255, 248, 234, 0.68) 0%, rgba(255, 244, 224, 0.82) 48%, rgba(255, 250, 240, 0.98) 100%),
+      url("assets/hero-rural-background-mobile.png") center 56% / cover no-repeat;
+    border-block: 1px solid rgba(118, 13, 11, 0.1);
+  }
+
+  #about.split::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(255, 248, 234, 0.22), rgba(255, 250, 240, 0.92) 72%, #fffaf0 100%),
+      radial-gradient(circle at 50% 18%, rgba(255, 251, 235, 0.34), transparent 42%);
+  }
+
+  #about.split > div:first-child {
+    text-align: center;
+  }
+
+  #about.split > div:first-child p {
+    max-width: 330px;
+    margin-inline: auto;
+  }
+
+  #about.split .section-kicker {
+    margin-bottom: 14px;
+  }
+
+  #about.split h2 {
+    max-width: 360px;
+    margin-inline: auto;
+    text-shadow: 0 12px 30px rgba(118, 13, 11, 0.12);
+  }
+
+  .identity-panel {
+    width: min(100%, 340px);
+    justify-self: center;
+    padding: 22px;
+    background:
+      linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(255, 247, 232, 0.94)),
+      radial-gradient(circle at 95% 0%, rgba(217, 151, 34, 0.22), transparent 36%);
+    box-shadow: 0 22px 52px rgba(54, 24, 12, 0.18);
+  }
+
+  .identity-panel::before {
+    opacity: 0.22;
+    background-image:
+      radial-gradient(circle at 92% 7%, rgba(217, 151, 34, 0.32), transparent 12%),
+      linear-gradient(rgba(118, 13, 11, 0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(118, 13, 11, 0.035) 1px, transparent 1px);
+  }
+
+  .identity-panel h3 {
+    margin-bottom: 18px;
+  }
+
+  .identity-panel dl {
+    display: grid;
+    gap: 0;
+  }
+
+  .identity-panel dl > div {
+    position: relative;
+    min-height: 56px;
+    padding: 0 0 14px 52px;
+    border-bottom: 1px solid rgba(118, 13, 11, 0.1);
+  }
+
+  .identity-panel dl > div:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+
+  .identity-panel dl > div::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    display: grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--maroon);
+    background: radial-gradient(circle at 30% 25%, #fff, #fff1bf 42%, #e4a432 100%);
+    border: 2px solid white;
+    box-shadow: 0 8px 18px rgba(54, 24, 12, 0.14);
+    font-size: 17px;
+    font-weight: 900;
+  }
+
+  .identity-panel dl > div:nth-child(1)::before { content: "👤"; }
+  .identity-panel dl > div:nth-child(2)::before { content: "🤝"; }
+  .identity-panel dl > div:nth-child(3)::before { content: "⌖"; }
+  .identity-panel dl > div:nth-child(4)::before { content: "✦"; }
+
   .section-heading {
     margin-bottom: 24px;
   }
