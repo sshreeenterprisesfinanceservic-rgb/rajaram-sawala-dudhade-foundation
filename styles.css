@@ -451,6 +451,31 @@ p {
   border-block: 1px solid var(--line);
 }
 
+#about.split {
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(255, 250, 239, 0.74) 0%, rgba(255, 248, 236, 0.9) 52%, rgba(255, 253, 247, 0.96) 100%),
+    url("assets/hero-rural-background.png") left 58% / min(980px, 62vw) auto no-repeat,
+    linear-gradient(180deg, #fffaf0, #fffdf8);
+}
+
+#about.split::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 74% 34%, rgba(255, 253, 247, 0.72), transparent 34%),
+    linear-gradient(90deg, transparent 0%, rgba(255, 253, 247, 0.84) 64%, #fffdf8 100%);
+}
+
+#about.split > * {
+  position: relative;
+  z-index: 1;
+}
+
 .glass-card,
 .identity-panel,
 .contact-card,

@@ -412,6 +412,11 @@ const savedLanguage = localStorage.getItem("foundation-language") || "en";
 languageSelect.value = savedLanguage;
 setLanguage(savedLanguage);
 
+if (window.location.hash) {
+  history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
+  window.requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: "auto" }));
+}
+
 const dialog = document.querySelector("#certificateDialog");
 document.querySelector("#openCertificate").addEventListener("click", () => dialog.showModal());
 document.querySelector("#closeCertificate").addEventListener("click", () => dialog.close());
