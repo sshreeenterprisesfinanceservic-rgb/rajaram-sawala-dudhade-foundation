@@ -144,7 +144,7 @@ body::before {
   position: absolute;
   inset: 0 auto 0 0;
   display: block;
-  width: min(1050px, 68vw);
+  width: min(960px, 58vw);
   pointer-events: none;
 }
 
@@ -154,7 +154,7 @@ body::before {
   opacity: 0.92;
   filter: saturate(1.02) contrast(0.98);
   transform: scale(1.02);
-  mask-image: linear-gradient(90deg, black 0%, black 62%, transparent 100%);
+  mask-image: linear-gradient(90deg, black 0%, black 58%, transparent 100%);
 }
 
 .hero::after {
@@ -162,10 +162,14 @@ body::before {
   background:
     linear-gradient(90deg, rgba(255, 247, 231, 0.48) 0%, rgba(255, 244, 220, 0.56) 46%, rgba(255, 248, 235, 0.98) 100%),
     radial-gradient(circle at 35% 36%, rgba(255, 249, 232, 0.32), transparent 40%);
-  mask-image: linear-gradient(90deg, black 0%, black 72%, transparent 100%);
+  mask-image: linear-gradient(90deg, black 0%, black 64%, transparent 100%);
 }
 
-.hero-copy { max-width: 860px; }
+.hero-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+}
 
 .eyebrow,
 .section-kicker {
@@ -272,6 +276,8 @@ p {
 
 .hero-stage {
   position: relative;
+  z-index: 2;
+  isolation: isolate;
   justify-self: center;
   width: min(500px, 90vw);
   aspect-ratio: 1;
@@ -282,15 +288,15 @@ p {
   border: 1px solid rgba(217, 151, 34, 0.24);
   border-radius: 8px;
   background:
-    radial-gradient(circle at 50% 38%, rgba(255, 250, 226, 0.95), rgba(255, 236, 179, 0.74) 36%, rgba(118, 13, 11, 0.08) 72%, rgba(217, 151, 34, 0.22)),
-    linear-gradient(145deg, rgba(255, 253, 247, 0.78), rgba(255, 239, 201, 0.74));
+    radial-gradient(circle at 50% 38%, #fff9df, #ffe7a5 36%, #faecd0 72%, #f4d08d),
+    linear-gradient(145deg, #fffdf7, #ffefc9);
   box-shadow: 0 30px 80px rgba(54, 24, 12, 0.13);
-  transform-style: preserve-3d;
 }
 
 .hero-visual {
   position: relative;
   z-index: 2;
+  isolation: isolate;
   width: min(430px, 82vw);
   aspect-ratio: 1;
   border-radius: 50%;
@@ -301,11 +307,15 @@ p {
 }
 
 .hero-visual img {
+  position: relative;
+  z-index: 2;
+  display: block;
   width: 100%;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
   background: white;
+  opacity: 1;
 }
 
 .orbit {
