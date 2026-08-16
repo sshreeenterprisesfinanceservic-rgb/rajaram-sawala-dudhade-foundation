@@ -362,10 +362,12 @@ function setLanguage(lang) {
         <article class="service-card tilt-card">
           <div class="service-image-wrap">
             <img src="${serviceImages[index]}" alt="${title}" loading="lazy" />
-            <div class="service-icon" aria-hidden="true">${icons[index]}</div>
           </div>
           <div class="service-content">
-            <h3>${title}</h3>
+            <div class="service-title-row">
+              <span class="service-icon" aria-hidden="true">${icons[index]}</span>
+              <h3>${title}</h3>
+            </div>
             <p>${text}</p>
           </div>
         </article>
